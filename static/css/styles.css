@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+
+    
+    background-image: url('/static/background.jpg');
+    background-size: 100% 100%; /* This will stretch the image to fit the full width and height of the body */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* This ensures the image stays in place even if the content is scrolled */
+    
+}
+
+.done {
+    text-decoration: line-through;
+}
